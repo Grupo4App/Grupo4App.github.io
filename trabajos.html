@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+  <html>
+    <head>	
+	<link rel="manifest" href="/manifest.json"> 
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	  <link type="text/css" rel="stylesheet" href="css/estilos.css"  media="screen,projection"/>      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>	    	
+    </head>
+
+    <body>
+	<main>	
+		  <nav>
+			<div class="nav-wrapper  orange center">			  
+				<label class="titulo">&nbsp;&nbsp; Aplicaciones Móviles - Grupo 4</label>								  
+			</div>
+		  </nav>
+		  
+		  <div class="container center">		  
+		        <div class="row"> 
+
+<ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><label class="tituloItem">Near Field Communications: Una visión general sobre esta tecnología</label></div>
+      <div class="collapsible-body">
+	  <span>
+		<p align="justify"> <b>Resumen:</b></br>
+			La tecnología Near Field Communication, ha sido usada desde hace años en distintas aplicaciones. Introducida en los dispositivos móviles desde 2004, se está convirtiendo en un standard imprescindible para agregar a los dispositivos móviles la posibilidad de convertirse en elementos de pago, de validación y de identificación, simplemente acercando físicamente el mismo a un determinado punto señalizado. En este documento se describen distintos aspectos de esta tecnología que abarcan los principios básicos de funcionamiento, sus especificaciones, así como distintas APIs utilizadas para poder desarrollar distintas aplicaciones, tratándose por último aspectos relativos a la seguridad.</br>			
+		</p>
+	  </span></div>
+    </li>
+
+   
+  </ul>
+
+<a href="index.html" target="_blank" class="waves-effect waves-light btn orange "> Volver </a>				
+				</div>            
+		   </div>        		      
+			<script type="text/javascript" src="js/materialize.min.js"></script>	  	  	  	  
+	   <script>
+	       document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.collapsible');
+			var instances = M.Collapsible.init(elems, '');
+		});
+	   if ('serviceWorker' in navigator)
+		   navigator.serviceWorker.register('/sw.js');	
+		   		  
+	  </script>
+    </main>
+	 <footer>
+          <div class="footer-copyright  orange ">
+            <div class="container">
+             	<label class="pie"> Maestr&iacute;a en Tecnolog&iacute;a Inform&aacute;tica</label>
+            </div>
+          </div> 
+        </footer>
+	</body>
+  </html>
+        

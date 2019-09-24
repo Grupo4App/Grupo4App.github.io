@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+  <html>
+    <head>	
+	<link rel="manifest" href="/manifest.json"> 
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	  <link type="text/css" rel="stylesheet" href="css/estilos.css"  media="screen,projection"/>      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>	    	
+    </head>
+
+    <body>
+	<main>	
+		  <nav>
+			<div class="nav-wrapper  orange center">			  
+				<label class="titulo">&nbsp;&nbsp; Aplicaciones Móviles - Grupo 4</label>								  
+			</div>
+		  </nav>
+		  
+		  <div class="container center">		  
+		        <div class="row"> 
+
+<ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><label class="tituloItem">Miembros Grupo 4</label></div>
+      <div class="collapsible-body">
+	  <span>
+		<p ><b>
+			Douce, Enrique Emilio </br>
+			<img src="imagenes/Douce.jpg" alt="Foto_Douce" width="120" align="center"/><br/>
+			<a href="mailto:edouce@gmail.com"> Enviar Mail </a></br></br>
+			Fuentes, Lorena </br>
+			<img src="imagenes/Fuentes.jpg" alt="Foto Fuentes" width="120" align="center"/><br/>
+			<a href="mailto:kireba101@gmail.com"> Enviar Mail </a></br></br>
+			Paez, Diego Mariano </br>
+			<img src="imagenes/Paez.jpg" alt="Foto Paez" width="120" align="center"/></br>
+			<a href="mailto:diegomariano.paez@gmail.com"> Enviar Mail </a></br></br>
+			</b>			
+		</p>
+	  </span></div>
+    </li>
+	<li>
+      <div class="collapsible-header"><label class="tituloItem">Trabajos Prácticos Grupo 4</label></div>
+      <div class="collapsible-body"><span>
+	  <p align="left">
+			TP 1 - Tecnología relacionada al hardware: <b>Near Field Communication: Una visión general </b></br>
+		</p>
+		<p>
+			<a href="trabajos.html" target="_blank" class="waves-effect waves-light btn orange " > Consultar </a>
+<br/>
+						
+		</p>
+	  </span></div>
+    </li>
+   
+  </ul>
+
+				
+				</div>            
+		   </div>        		      
+			<script type="text/javascript" src="js/materialize.min.js"></script>	  	  	  	  
+	   <script>
+	       document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.collapsible');
+			var instances = M.Collapsible.init(elems, '');
+		});
+	   if ('serviceWorker' in navigator)
+		   navigator.serviceWorker.register('/sw.js');	
+		   		  
+	  </script>
+    </main>
+	 <footer>
+          <div class="footer-copyright  orange ">
+            <div class="container">
+             	<label class="pie"> Maestr&iacute;a en Tecnolog&iacute;a Inform&aacute;tica</label>
+            </div>
+          </div> 
+        </footer>
+	</body>
+  </html>
+        

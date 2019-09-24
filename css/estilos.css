@@ -1,0 +1,32 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.titulo
+{
+
+	font-size: 1.5rem;
+	color: white;
+	font-weight: bold;
+
+}
+
+.pie
+{
+
+	font-size: 0.8rem;
+	color: white;
+	font-weight: bold;
+
+}
+.tituloItem
+{
+	font-size: 1.2rem;	
+	font-weight: bold;
+}
