@@ -1,5 +1,5 @@
 
-const cacheActual = 'UAIMobile-v3';
+var CACHENAME = "cachestore-v1";
 
 const recursosEstaticos = [
   'css/materialize.min.css',  
@@ -9,7 +9,7 @@ const recursosEstaticos = [
 	'index.html',
 	'trabajos.html',
 	'imagenes/Paez.jpg',
-	'imagenes/Fuentes.jpg´,
+	'imagenes/Fuentes.jpg',
 	'imagenes/Douce.jpg'
 ];
 
@@ -17,15 +17,16 @@ self.addEventListener('install', function(event)
 {
   event.waitUntil
   (
-    caches.open(cacheActual).then(function(cache) 
+    caches.open(CACHENAME).then(function(cache) 
        {
         return cache.addAll(recursosEstaticos);
        })
   );
-});	 
+});
+
 self.addEventListener('activate', function(event)  {
-	var version = 'v1';
-		       event.waitUntil(
+	var version = 'v1'; 
+	event.waitUntil(
 			       caches.keys()
 			       .then(cacheNames =>
 				    Promise.all(
