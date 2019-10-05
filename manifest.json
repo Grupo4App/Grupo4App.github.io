@@ -1,8 +1,8 @@
 {
   "short_name": "Grupo4App",
   "name": "Aplicaciones Móviles - Grupo 4",
-  "background_color": "#E65100",
-  "theme_color": "#E65100",
+  "background_color": "#e65100",
+  "theme_color": "#e65100",
   "icons": [
 	   {
 	      "src": "icons/192.png",
