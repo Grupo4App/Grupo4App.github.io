@@ -1,5 +1,5 @@
 
-var CACHENAME = "cachestore-v1";
+var CACHENAME = "cachestore-v2";
 
 const recursosEstaticos = [
   'css/materialize.min.css', 
