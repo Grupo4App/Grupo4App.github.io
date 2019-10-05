@@ -2,7 +2,8 @@
 var CACHENAME = "cachestore-v1";
 
 const recursosEstaticos = [
-  'css/materialize.min.css',  
+  'css/materialize.min.css', 
+  'css/estilos.css',
   'js/materialize.min.js' , 
   'icons/512.png',
   'icons/192.png',
