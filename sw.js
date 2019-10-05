@@ -1,5 +1,5 @@
 
-var CACHENAME = "cachestore-v3";
+var CACHENAME = "cachestore-v4";
 
 const recursosEstaticos = [
   'css/materialize.min.css', 
@@ -26,7 +26,7 @@ self.addEventListener('install', function(event)
 });
 
 self.addEventListener('activate', function(event)  {
-	var version = 'v3'; 
+	var version = 'v4'; 
 	event.waitUntil(
 			       caches.keys()
 			       .then(cacheNames =>
